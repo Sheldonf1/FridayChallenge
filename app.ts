@@ -39,7 +39,7 @@ connect.query(
         }
     }
 );
-//UPDATE OPERATION:
+//----------------UPDATE OPERATION--------------------//
 connect.query(
     "UPDATE customers SET customerName = 'V2 Otaku!' WHERE customerNumber = 497",
     (error, results) => {
@@ -50,7 +50,7 @@ connect.query(
         }
     }
 );
-// DELETE 
+//----------------DELETE----------------//
 connect.query(
     "DELETE FROM customers WHERE customerName = 'V2 Otaku!' WHERE customerNumber = 497",
     (error, results) => {
